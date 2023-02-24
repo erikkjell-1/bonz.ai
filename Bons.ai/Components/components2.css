@@ -1,0 +1,83 @@
+.information__card {
+    text-align: center;
+}
+
+.information__picture {
+    
+    width: 645px;
+    height: 313px;
+    z-index: 1001;
+    border-radius: 5px;
+}
+
+.information__text--coal {
+    text-align: center;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.availability {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+    gap: 2.5rem;
+    justify-items: center;
+    width: 640px;
+    height: 832px;
+    background: #FFFFFF;
+}
+
+.availability__calender {
+    width: 374px;
+    height: 66px;
+    padding: 2px;
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+
+}
+
+.bonzai__logo:hover {
+    cursor: pointer;
+}
+
+.bonzai__logo {
+    width: 581px;
+    height: 140px;
+    
+}
+
+.checkout {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-content: center;
+
+    justify-items: center;
+    width: 479px;
+    background: rgba(217, 217, 217, 0.5);;
+}
+
+.checkout__box {
+    width: 374px;
+    height: 50px;
+    background: #b9b9b9;
+}
+
+.checkout__buttons--grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 1rem;
+    gap: 1rem;
+    align-content: center;
+    justify-items: center;
+
+}

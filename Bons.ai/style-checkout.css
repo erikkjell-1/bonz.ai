@@ -1,0 +1,66 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    }
+
+.checkout--grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.product--checkout {
+    grid-column: 1 / span 1;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.checkout--align {
+    grid-column: 2 / span 1;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.product__text--coal {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.logo--cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    background: #abbaab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 1200px) {
+    .checkout--grid {
+        display: block;
+        row-gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .bonzai__logo {
+        display: none;
+    }
+    .description {
+        display: block;
+        align-items: center;
+    }
+  }

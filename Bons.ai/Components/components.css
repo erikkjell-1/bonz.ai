@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    border: none;
+}
+
+.title {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+}
+
+.bonzai__text--coal {
+    font-family: 'Maven Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.availability__button--walnut:hover, .product__button--big-grizzlie:hover, .product__button--big-forrest:hover, .product__button--walnut:hover, .checkout__button--leaf:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.availability__button--walnut {
+    width: 359px;
+    height: 81px;
+    background: rgba(91, 58, 27, 0.75);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.product__button--big-grizzlie {
+    width: 577px;
+    height: 93px;
+    background: #5B3A1B;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product__button--big-forrest {
+    width: 577px;
+    height: 93px;
+    background: #265025;
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.product__button--walnut {
+    width: 162.34px;
+    height: 66px;
+    background: rgba(91, 58, 27, 0.75);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+} 
+
+.checkout__button--leaf {
+    width: 162.34px;
+    height: 66px;
+    background: #50A54E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
